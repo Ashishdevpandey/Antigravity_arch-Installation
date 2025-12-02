@@ -23,17 +23,7 @@ No hunting for dependencies, no manual fixes — everything is automated.
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Antigravity+Installer+Demo" alt="Demo Screenshot" width="800"/>
-</div>
-
-> *Installation in progress...*
-
----
-
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the repo
 ```bash
