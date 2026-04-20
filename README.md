@@ -50,14 +50,16 @@ To add Antigravity to your application menu with an icon, create a desktop entry
 2. Paste the following content:
    ```ini
    [Desktop Entry]
-   Name=Antigravity
-   Comment=AI-powered IDE
-   Exec=/opt/antigravity/bin/antigravity
-   Icon=/opt/antigravity/resources/app/icon.png
-   Terminal=false
-   Type=Application
-   Categories=Development;IDE;
-   StartupWMClass=Antigravity
+Name=Antigravity
+Comment=AI-powered IDE
+Exec=/opt/antigravity/antigravity --no-sandbox %F
+Icon=/opt/antigravity/resources/app/out/vs/workbench/contrib/antigravityCustomAppIcon/browser/media/antigravity/antigravity.png
+Terminal=false
+Type=Application
+Categories=Development;IDE;
+StartupWMClass=antigravity
+
+   
    ```
 
 3. **Save and Update**:
