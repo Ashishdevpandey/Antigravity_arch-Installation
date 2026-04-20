@@ -69,5 +69,20 @@ To add Antigravity to your application menu with an icon, create a desktop entry
 
 ---
 
+## 🔄 How to Update
+
+If you want to update **Antigravity** to a newer version, follow these steps to ensure a clean install:
+
+1. **Remove Old Files**:
+   Delete the existing installation folder:
+   ```bash
+   sudo rm -rf /opt/antigravity
+   ```
+
+2. **Redo Installation**:
+   Follow **Step 2** and **Step 3** again with your new downloaded files. Since your `.desktop` file and symlinks are already set up, the app will start working immediately with the new version.
+
+---
+
 ## ✨ Done!
 You can now launch **Antigravity** from your application launcher or by typing `antigravity` in the terminal.
